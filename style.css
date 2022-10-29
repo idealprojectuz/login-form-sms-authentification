@@ -1,0 +1,54 @@
+.login{
+    width: 100%;
+    
+}
+*::selection{
+    color: white;
+    background-color: #0071e3;
+}
+*{
+    font-family: "Al Bayan Bold	" sans-serif;
+}
+.form-control:focus{
+    border-color:#0066cc !important;
+    box-shadow: none !important;
+    border-width: 2px;
+}
+.btn-primary{
+    background-color: #0066cc !important;
+
+}
+input{
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
+#phonenumber
+{
+    transition: .5s ease;
+    font-size: 18px;
+}
+
+input[type="text"]:disabled{
+    background-color: red;
+}
+
+
+.succses{
+    border-width: 2px;
+    background-color: #d3d3d3;
+    border-color: #d3d3d3;
+}
+.alert-costum{
+    border-width: 2px;
+    border-color: red;
+}
+#phonenumber,#authcode{
+    text-align: center;
+    
+}
+#phonenumber:focus{
+    text-align: left;
+    transition: .5s ease;
+}
