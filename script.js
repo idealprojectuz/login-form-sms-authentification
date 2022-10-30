@@ -26,7 +26,7 @@ submit.addEventListener('click',(e) =>{
     if (result!=null)
         {
             hiddenval.value=rep;
-            // element.setAttribute('disabled','');
+            // element.disabled=true;
             if (element.classList.contains('alert-costum'))
             {
                 element.classList.remove('alert-costum');

@@ -18,11 +18,12 @@
                         <input type="tel" name="tel" placeholder="Telefon raqamingiz" id="phonenumber" class="form-control p-2">
                         <input type="hidden" name="regtel" id="phonehidden">
                     </div>
+                    <div id="res-data">
+                    
+                    </div>
                     <Button type="button" id="submit" name="s1" class="btn btn-primary login p-2">Войти</Button>
                 </form>
-                <div id="res">
-                    
-                </div>
+           
             </div>
         </div>
     </div>
